@@ -1,0 +1,21 @@
+  /* contenedor de precios */
+  .contPrecio{
+    display: grid;
+    grid-template: auto;
+    grid-template-columns: (3, auto);
+    grid-template-rows: (1, auto);
+    grid-template-areas: 
+         "nada" "precio" "nada";
+    gap: 10px;
+    .precio{
+        grid-area: precio;
+        color: $color_negro;
+        background-color: $color_verde;
+        text-align: center;
+        font-size: large;
+        height: 30px;
+        width: 140px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+  }

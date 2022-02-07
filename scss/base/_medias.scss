@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px) {
+  .galeria-index {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contParrafo {
+    display: grid;
+    grid-template-columns: (1, auto);
+    grid-template-rows: (1, auto);
+    grid-template-areas: 
+        "parrafo";
+    width: 90%;
+  }
+  .containerMaker{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}

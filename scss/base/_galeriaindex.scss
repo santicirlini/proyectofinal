@@ -1,0 +1,24 @@
+.galeria-index{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    grid-template-areas: 
+    "pajaro oso zorro";
+    .pajaro{
+        justify-self: end;
+        grid-area: pajaro;
+    }
+    .oso{
+        grid-area: oso;
+    }
+    .zorro{
+        justify-self: start;
+        grid-area: zorro;
+    }
+    img{
+        border: 2px gray;
+        border-radius: 20px;
+        box-shadow: 0 0 10px black;
+    }
+}

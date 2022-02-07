@@ -1,0 +1,25 @@
+.main-index{
+    .info-caja{
+      width: 100%;
+      background-color: $color_grisoscuro;
+      cursor: default;
+    }
+        .info-triple{
+          display: flex;
+          justify-content: space-between;
+          margin: auto;
+        }
+        .info-solo{
+          text-align: center;
+          width: 100%; 
+        }
+            i{
+              display: block;
+              margin: 20px;
+              font-size: 3rem;
+              color: $color_grisoscuro;
+            }
+            span{
+              font-size: 18px;
+            }
+}

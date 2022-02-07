@@ -1,0 +1,15 @@
+/* footer */
+
+.sociales{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    a{
+        text-decoration: none;
+        font-size: 28px;
+        text-align: center;
+        color: $color_negro;
+    }
+}
